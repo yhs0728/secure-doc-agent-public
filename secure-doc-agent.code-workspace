@@ -1,0 +1,13 @@
+{
+  "folders": [
+    { "name": "local", "path": "local" },
+    { "name": "hybrid", "path": "hybrid" },
+    { "name": "multicloud", "path": "multicloud" }
+  ],
+  "settings": {
+    "git.openRepositoryInParentFolders": "never",
+    "python.defaultInterpreterPath": "${workspaceFolder:local}/../.venv/Scripts/python.exe",
+    "search.exclude": { "**/.venv/**": true, "**/node_modules/**": true, "**/.microservice-tests/**": true },
+    "files.watcherExclude": { "**/.venv/**": true, "**/node_modules/**": true, "**/.microservice-tests/**": true }
+  }
+}
